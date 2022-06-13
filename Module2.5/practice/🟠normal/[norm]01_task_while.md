@@ -34,7 +34,12 @@ n = 5
 
 ```python
 # TODO: you code here...
-```
+# 1 < n < 20
+n = 8
+count = 1
+while count <= n:
+    print('*' * count)
+    count += 1
 
 ---
 
