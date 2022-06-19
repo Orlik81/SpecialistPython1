@@ -5,7 +5,10 @@
 # Исходные данные:
 fruits = ["яблоко", "банан", "киви", "арбуз"]
 
-# TODO: your code here
+i = 1
+for fruit in fruits:
+    print(i, f"{fruit:>6}")
+    i+=1
 
 # Пример вывода:
 # 1. яблоко
