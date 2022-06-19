@@ -2,3 +2,9 @@
 # Вывести на экран сумму всех положительных элементов.
 
 # TODO: your code here
+i = 0
+for sum in n:
+    if sum>0:
+        i = i + sum
+
+print(i)
