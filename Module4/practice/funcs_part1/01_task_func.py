@@ -11,3 +11,7 @@ print(max4(-10, -12, -4, -9))
 print(max4(2.5, 2.6, 2.6, 2.4))
 print(max4(-2.5, 0, -1.2, -0.4))
 print(max4(-2, -2, -2, -2))
+def max4(n1, n2, n3, n4):
+    tup = (n1, n2, n3, n4)
+    big_number = max(tup)
+    return big_number
