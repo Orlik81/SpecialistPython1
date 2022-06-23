@@ -9,5 +9,25 @@ def distance(x1, y1, x2, y2):
     pass
 
 
-# TODO: your code here
-print("Самый короткий отрезок:", ...)  # Выводим название отрезка, например “АС”.
+ax = int(input("Введите координаты ax= "))
+ay = int(input("Введите координаты ay= "))
+bx = int(input("Введите координаты bx= "))
+by = int(input("Введите координаты by= "))
+cx = int(input("Введите координаты cx= "))
+cy = int(input("Введите координаты cy= "))
+
+
+def distance(ax, ay, bx, by, cx, cy):
+    AB = ((bx - ax) ** 2 + (by - ay) ** 2) ** 0.5
+    BC = ((cx - bx) ** 2 + (cy - by) ** 2) ** 0.5
+    AC = ((cx - ax) ** 2 + (cy - ay) ** 2) ** 0.5
+    if AB < BC and AB < AC:
+        return "AB"
+    elif BC < AC:
+        return "BC"
+    else:
+        return "AC"
+    
+print("Самый короткий отрезок:", distance(ax, ay, bx, by, cx, cy))  # Выводим название отрезка, например “АС”.
+
+
