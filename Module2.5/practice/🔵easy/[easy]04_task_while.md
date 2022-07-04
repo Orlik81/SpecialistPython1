@@ -18,7 +18,12 @@ _Сумма четных чисел от 0 до 7 = 12_
 
 ```python
 # TODO: you code here...
-```
+sum_even_numbers = 0 
+while a <= b:
+    if a % 2 == 0:
+        sum_even_numbers += a
+    a += 1
+print(sum_even_numbers)
 
 ---
 
