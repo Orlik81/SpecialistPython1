@@ -18,7 +18,12 @@
 n = int(input("n: "))
 
 # TODO: you code here...
-```
+
+x = 0
+while x < n:
+    print("Я учу питон")
+    x+=1
+
 
 ---
 
